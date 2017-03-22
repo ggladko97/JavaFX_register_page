@@ -4,10 +4,9 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="sample.UsersEntity" table="users" schema="public" catalog="Users">
+    <class name="entities.UsersDAO" table="users" schema="public" catalog="Users">
         <id name="id" column="id"/>
         <property name="login" column="login"/>
         <property name="password" column="password"/>
     </class>
-
 </hibernate-mapping>

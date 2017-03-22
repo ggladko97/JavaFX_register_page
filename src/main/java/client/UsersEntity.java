@@ -1,4 +1,4 @@
-package sample;
+package client;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
